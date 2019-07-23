@@ -38,7 +38,35 @@
   .logo{
     display: none;
   }
-  
+  .profile{
+      
+      width: 300px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      
+  }
+  .boxt{
+    padding: 1rem;
+    background: #c0284c;
+    color: #ffff;
+    margin: 0.3rem;
+    border-radius: 0.1rem;
+  }
+  .watermelon-bot{
+      
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  .svg-draw{
+      display: none;
+  }
+  .last-text{
+      padding: 1rem;
+  }
   
   
   
@@ -111,42 +139,46 @@
       .watermelon{
        margin: 1rem;
       }
-      }
-      .box{
-          display: flex;
-      }
-      .content h1{
-        font-size: 3rem;
-      }
-      .trabajos{
+    
+    .box{
         display: flex;
-        padding: 1rem;
-        background: #ffff;
-        flex-direction: row;
-      }
-      .boxt{
-        padding: 2rem;
-        background: #c0284c;
-        color: #ffff;
-        margin: 0.3rem;
-        border-radius: 0.1rem;
-      }
-      .profile{
-        transition: 0.3s;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        width: 600px;
-        
-      }
-      .profile:hover{
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        cursor: pointer;
-      }
-      .last-box{
-        display: flex;
-        padding: 3rem;
-        
-      }
-      .last-text{
-        margin: 2rem;
-      }
-   }
+    }
+    .content h1{
+      font-size: 3rem;
+    }
+    .trabajos{
+      display: flex;
+      padding: 1rem;
+      background: #ffff;
+      flex-direction: row;
+    }
+    .boxt{
+      padding: 2rem;
+      background: #c0284c;
+      color: #ffff;
+      margin: 0.3rem;
+      border-radius: 0.1rem;
+      
+    }
+    .profile{
+      transition: 0.3s;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      width: 600px;
+      
+    }
+    .profile:hover{
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+    .last-box{
+      display: flex;
+      padding: 3rem;
+      
+    }
+    .last-text{
+      margin: 2rem;
+    }    
+    .svg-draw{
+        display: inline;
+    }
+ }
