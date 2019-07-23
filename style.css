@@ -38,7 +38,10 @@
   .logo{
     display: none;
   }
-  
+  .trabajos{
+      display: flex;
+      flex-direction: column;
+  }
   
   
   
