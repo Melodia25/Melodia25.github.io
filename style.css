@@ -1,0 +1,59 @@
+*{
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Cardo', serif;
+    background: #eeeeff;
+    color: #50514f;
+  }
+  ul{
+   padding-left: 0px;
+   text-decoration: none;
+  }
+  li{
+    background:#c5c5c5;
+    padding: 16px 16px 16px 0;
+    list-style: none;
+    text-align: center;
+    border: solid 0.2px;
+  }
+  .box{
+    
+    align-items:center;
+  }
+  .content{
+    width:100%;
+    padding: 1rem 0 0 1rem;
+  }
+  .texto{
+    font-size:1.6rem;
+  }
+  .watermelon{
+    width:100%;
+    padding-top: 1rem;
+  }
+  
+  
+  
+  
+  /*Watermelon Animation*/
+  .left{
+    animation: miAnimacion 1s infinite alternate ;
+  }
+  .right{
+    animation: miAnimacion 1s infinite alternate ;
+  }
+  @keyframes miAnimacion{
+    to{ 
+      transform: translateX(-8.45px);
+    }
+    
+  }
+
+  @media (min-width: 992px) { 
+      .box{
+          display: flex;
+      }
+   }
