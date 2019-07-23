@@ -9,7 +9,7 @@
     color: #50514f;
   }
   ul{
-   padding-left: 0px;
+   padding:0;
    text-decoration: none;
   }
   li{
@@ -53,6 +53,20 @@
   }
 
   @media (min-width: 992px) { 
+      .menu li{
+        display: inline-block;
+        background: none;
+        border:none;
+        padding-left: 1rem;
+        font-size: 1.5rem;
+       
+      }
+      .menu li:hover{
+        color:#c0284c;
+        cursor:pointer;
+
+      }
+      }
       .box{
           display: flex;
       }
