@@ -94,11 +94,13 @@
 
       .box{
         padding: 1rem;
+        
       }
-
+      .content{
+        font-weight: 500;
+      }
       .watermelon{
-        padding-right: 1rem;
-        padding-top: 2rem;
+       margin: 1rem;
       }
       }
       .box{
@@ -117,10 +119,21 @@
         background: #c0284c;
         color: #ffff;
         margin: 0.3rem;
+        border-radius: 0.1rem;
+      }
+      .profile{
+        transition: 0.3s;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        width: 600px;
+        
+      }
+      .profile:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
       }
       .last-box{
         display: flex;
         padding: 3rem;
+        
       }
       .last-text{
         margin: 2rem;
