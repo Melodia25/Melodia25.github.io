@@ -34,6 +34,9 @@
     width:100%;
     padding-top: 1rem;
   }
+  .logo{
+    display: none;
+  }
   
   
   
@@ -65,7 +68,7 @@
         background: none;
         border:none;
         padding-left: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: #ffff;
       }
       .menu li:hover{
@@ -74,9 +77,25 @@
         background: #398e40;
 
       }
+      
+      .logo{
+        float: left;
+        padding: 0;
+              
+      }
+      .logo:hover{
+        background: none;
+      }
+
+      .logo-img{
+        height: 65px;;
+        padding: 1rem;
+      }
+
       .box{
         padding: 1rem;
       }
+
       .watermelon{
         padding-right: 1rem;
         padding-top: 2rem;
@@ -98,5 +117,12 @@
         background: #c0284c;
         color: #ffff;
         margin: 0.3rem;
+      }
+      .last-box{
+        display: flex;
+        padding: 3rem;
+      }
+      .last-text{
+        margin: 2rem;
       }
    }
